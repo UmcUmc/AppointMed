@@ -1,0 +1,133 @@
+
+.doctors{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.doctorsList{
+  background-color: rgb(238, 255, 249);
+  padding: 5%;
+  list-style: none;
+}
+.DoctorCard{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.DoctorData{
+  background-color: rgb(255, 255, 255);
+  height: 10rem;
+  display: grid;
+  grid-template-columns: 20% 45% 35%;
+  grid-template-rows: auto auto auto auto auto;
+  padding-left: 5%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 5%;
+  border-radius: 20px;
+  border-color: rgb(105, 189, 179);
+  border-style: solid;
+  border-width: 2px;
+}
+.DocData{
+  background-color: aqua;
+  height: 100%;
+  width: 100%;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+}
+.DocName{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  padding-top: 15%;
+  padding-bottom: 2%;
+}
+.name{
+  font-size: 35px;
+}
+.DocSpecialization{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+}
+.specialization{
+  font-size: 25px;
+}
+.DocDescription{
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+}
+.DateOptions{
+  list-style: none;
+  grid-row: 1 / span 5;
+  grid-column: 2;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  width: 35rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+}
+.dateCol1{
+  grid-column: 1;
+  background-color: rgb(230, 255, 250);
+  width: 80%;
+  padding-right: 20%;
+}
+.dateCol2{
+  grid-column: 2;
+  background-color: rgb(230, 255, 250);
+  width: 80%;
+  padding-right: 20%;
+}
+.dateCol3{
+  grid-column: 3;
+  background-color: rgb(230, 255, 250);
+  width: 80%;
+  padding-right: 20%;
+}
+.timeList1, .timeList2, .timeList3{
+  list-style: none;
+  background-color: rgb(245, 255, 253);
+  height: 100%;
+  width: 100%;
+}
+.dateOption{
+  width: 80%;
+  height: 30px;
+  background-color: rgb(146, 220, 219);
+  padding-left: 25%;
+  padding-right: 20%;
+  font-size: 22px;
+  padding-top: 6%;
+}
+
+.timeButton{
+  width: 100px;
+  height: 35px;
+  padding-left: 11%;
+  font-size: 18px;
+  margin-bottom: 2%;
+  background-color: rgb(62, 194, 179);
+}
+.book{
+  padding: 20%;
+  grid-column: 3;
+  background-color: rgb(255, 255, 255);
+}
+.bookButton{
+  width: 200px;
+  height: 60px;
+  padding-left: 5%;
+  font-size: 18px;
+  background-color: rgb(62, 194, 179);
+}
+.DocPicture{
+  padding-top: 8%;
+  background-color: rgb(255, 255, 255);
+}
+#DocImg{
+  max-width: 10rem;
+  max-height: 15rem;
+}

@@ -1,0 +1,59 @@
+<div class="doctors">
+  <div class="DoctorCard">
+    <li class="doctorsList" *ngFor="let doctor of doctors">
+      <div class="DoctorData">
+
+        <div class="DocPicture">
+          <img id="DocImg" src="./assets/doctorMan.png">
+        </div>
+        <div class="DocData">
+
+          <div class="DocName">
+            <div class="name">{{doctor.name}}</div>
+          </div>
+          <div class="DocSpecialization">
+            <div class="specialization">{{doctor.specialization}}, {{doctor.city}}</div>
+          </div>
+          <div class="DocDescription">
+            <!--   jakiś opis cośtam coś   -->
+          </div>
+        </div>
+        
+        <div class="book">
+          <button mat-flat-button class="bookButton" color="primary">Book now</button>
+        </div>
+
+        <!--
+        <div class="DateOptions">
+            <div class="dateCol1">
+              <div class="dateOption"> {{doctor.availableDates[0].date}} </div>
+              <ul>
+                <li class="timeList1" *ngFor="let time of doctor.availableDates[0].time">
+                  <button mat-flat-button class="timeButton" color="primary">{{time}}</button>
+                </li>
+              </ul>
+            </div>
+            <div class="dateCol2">
+              <div class="dateOption"> {{doctor.availableDates[1].date}} </div>
+              <ul>
+                <li class="timeList2" *ngFor="let time of doctor.availableDates[1].time">
+                  <button mat-flat-button class="timeButton" color="primary">{{time}}</button>
+                </li>
+              </ul>
+            </div>
+            <div class="dateCol3">
+              <div class="dateOption"> {{doctor.availableDates[2].date}} </div>
+              <ul>
+                <li class="timeList3" *ngFor="let time of doctor.availableDates[2].time">
+                  <button mat-flat-button class="timeButton" color="primary">{{time}}</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        -->
+
+      
+      </div>
+  </div>
+
+</div>

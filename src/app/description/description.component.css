@@ -1,0 +1,70 @@
+.container{
+    background-color: rgb(235, 255, 248);
+    width: 80%;
+    height: 650px;
+    /*padding-top: 2%;*/
+    margin-left: 10%;
+}
+.InstructionsWrapper{
+    width: 100%;
+    height: 60%;
+    margin-left: 0;
+    background-color: rgb(233, 253, 242);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 20px 20px 20px 20px;
+}
+mat-grid-list{
+    width: 90%;
+    margin-left: 5%;
+}
+mat-grid-tile {
+    background: rgb(235, 255, 252);
+}
+.step1container, .step2container, .step3container{
+    background-color: rgb(233, 253, 242);
+}
+.step1, .step2, .step3, .step4{
+    width: 60%;
+    height: 70%;
+    /*background-color: rgb(119, 237, 201);*/
+    background-color: rgb(185, 252, 226);
+    border-radius: 20px 20px 20px 20px;
+    padding: 15%;
+    color: rgb(14, 139, 129);
+    font-size: x-large;
+}
+
+.step1container :hover{
+    background-color: rgb(146, 222, 193);
+}
+.step2container :hover{
+    background-color: rgb(146, 222, 193);
+}
+.step3container :hover{
+    background-color: rgb(146, 222, 193);
+}
+.FindDoc{
+    height: 60%;
+    text-align: center;
+}
+#FindDoc{
+    max-width: 8rem;
+    max-height: 8rem;
+}
+.appointmentDate{
+    height: 60%;
+    text-align: center;
+}
+#appointment{
+    max-width: 8rem;
+    max-height: 8rem;
+}
+.SignIn{
+    height: 60%;
+    text-align: center;
+}
+#SignIn{
+    max-width: 8rem;
+    max-height: 8rem;
+}

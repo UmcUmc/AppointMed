@@ -1,0 +1,81 @@
+<div class="container"> 
+    <div class="innerContainer">
+    <div class="WelcomeText">
+       <div class="welcomeTo">
+            Welcome to
+       </div>
+       <div class="Appointmed">
+            AppointMed!
+       </div>
+    </div>
+        <div class="searchBar">
+            <div class="multiSelectWrapper">
+                
+                <mat-grid-list cols="5" rowHeight="90px">
+                
+                    <!--
+                    <mat-grid-tile colspan="2" class="name">
+                        <i class="pi pi-search"></i>
+                        <input type="text" class="search-term" placeholder="Nazwa, specjalizacja lub placówka">
+                    </mat-grid-tile>
+                    -->
+
+                    <mat-grid-tile colspan="2" class="name">
+                    <form class="example-form">
+                        <mat-form-field class="example-full-width">
+                            <mat-label>Nazwa, specjalizacja lub placówka</mat-label>
+                            <input type="text"
+                            placeholder="Pick one"
+                            aria-label="Number"
+                            matInput
+                            [formControl]="myControl"
+                            [matAutocomplete]="filterSpecialization">
+                            <mat-autocomplete #filterSpecialization>
+                                <mat-option *ngFor="let specialization of NameOptions; trackBy: trackByFnName" [value]="specialization.name">{{specialization.name}}</mat-option>
+                              </mat-autocomplete>
+                        </mat-form-field>
+                    </form>
+                    
+                    </mat-grid-tile>
+                        
+                        <mat-grid-tile colspan="2" class="address">
+                            <form class="example-form">
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>Ulica, kod pocztowy lub miasto</mat-label>
+                                    <input type="text"q2
+                                    placeholder="Pick one"
+                                    aria-label="Number"
+                                    matInput
+                                    [formControl]="myControl"
+                                    [matAutocomplete]="cityAutocomplete">
+                                    <mat-autocomplete #cityAutocomplete>
+                                        <mat-option *ngFor="let city of CityOptions; trackBy: trackByFnCity" [value]="city.city">{{city.city}}</mat-option>
+                                      </mat-autocomplete>
+                                </mat-form-field>
+                            </form>
+                        
+                    </mat-grid-tile>
+
+
+                    <!--<input type="text" class="search-location" placeholder="Ulica, kod pocztowy lub miasto">
+                        -->
+
+                    <mat-grid-tile class="searchButton" type="submit" >
+                        <!--<button type="submit" class="search-button">Szukaj</button> -->
+
+
+
+
+                    Search
+                    </mat-grid-tile>
+
+                </mat-grid-list>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div app-description></div>
+<div app-doctors></div>

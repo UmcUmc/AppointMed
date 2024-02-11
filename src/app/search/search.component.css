@@ -1,0 +1,94 @@
+.container{
+    background-color: rgb(235, 255, 248);
+    width: 80%;
+    height: 650px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.innerContainer{
+    background-color: rgb(198, 255, 230);
+    width: 86%;
+    margin-left: 7%;
+    height: 600px;
+    border-radius: 0 0 30px 30px;
+}
+.searchBar{
+    padding-top: 10%;
+}
+.WelcomeText{
+    float: center;
+    width:80%;
+    height: 50%;
+    margin-left: 10%;
+}
+.welcomeTo{
+    padding-top: 20%;
+    font-size: 100px;
+    color: rgb(45, 100, 95);
+}
+.Appointmed{
+    padding-top: 10%;
+    font-size: 100px;
+    color: rgb(1, 202, 162);
+}
+.multiSelectWrapper{
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(235, 255, 253);
+    border-radius: 18px 18px 18px 18px;
+}
+.name{
+    background-color: rgb(247, 247, 247);
+    border-radius: 15px 0 0 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 247, 255);
+    height: 80%;
+    padding-top: 0%;
+}
+.example-form {
+    width: 100%;
+    padding-top: 6%;
+    margin-left: 10%;
+    background-color: rgb(246, 246, 246);
+}
+.example-full-width{
+    width: 90%;
+    background-color: rgb(246, 246, 246);
+}
+
+.search-term{
+    font-size: large;
+    width: 80%;
+    height: 60%;
+    margin-left: 15%;
+    border: none;
+    margin-top: 1%;
+}
+.address{
+    background-color: rgb(246, 246, 246);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 247, 255);
+}
+.search-location{
+    font-size: large;
+    width: 80%;
+    height: 60%;
+    margin-left: 15%;
+    border: none;
+    margin-top: 1%;
+}
+.searchButton{
+    background-color: rgb(255, 241, 88);
+    border-radius: 0 15px 15px 0;
+    font-size: x-large;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 247, 255);
+}
+.searchButton :hover{
+    background-color: rgb(158, 43, 178);
+    cursor: pointer;
+}
+
